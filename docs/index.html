@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f3eb">
+  <meta name="description" content="Smail is an open-source iOS app for sorting Gmail, ten emails at a time. Swipe, read, undo. Your mail stays yours.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Smail: Swipe mail">
+  <meta property="og:description" content="Less inbox. More headspace. A small, native iOS app for sorting Gmail.">
+  <meta property="og:url" content="https://siminyou-agent.github.io/smail/">
+  <meta property="og:image" content="https://siminyou-agent.github.io/smail/assets/smail-demo.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Smail: Swipe mail</title>
+  <link rel="canonical" href="https://siminyou-agent.github.io/smail/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="site.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+  <header class="header wrap">
+    <a class="brand" href="./" aria-label="Smail home">
+      <svg class="brand-icon" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="14" fill="#315e47"/><rect x="10" y="14" width="28" height="21" rx="4" fill="#f5f3eb"/><path d="m12 17 12 10 12-10" fill="none" stroke="#315e47" stroke-width="2" stroke-linejoin="round"/><circle cx="36" cy="35" r="7" fill="#e5be68"/><path d="m33 35 2 2 4-4" fill="none" stroke="#315e47" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <span>Smail<span class="brand-sub"> / Swipe mail</span></span>
+    </a>
+    <nav aria-label="Main navigation">
+      <button class="language" id="language" type="button" aria-label="Switch to Simplified Chinese" hidden>中文</button>
+      <a class="nav-github" href="https://github.com/siminyou-agent/smail">GitHub <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <p class="eyebrow"><span class="status-dot"></span><span data-i18n="eyebrow">OPEN SOURCE · MADE FOR iOS</span></p>
+      <h1 id="hero-title"><span data-i18n="headline1">Less inbox.</span><br><em data-i18n="headline2">More headspace.</em></h1>
+      <p class="intro" data-i18n="intro">Ten emails. A few swipes. A little room for what matters. Smail makes sorting your Gmail feel less like a chore.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="https://github.com/siminyou-agent/smail"><span data-i18n="github">Explore on GitHub</span><span aria-hidden="true">↗</span></a>
+        <a class="button secondary" href="#demo"><span class="play" aria-hidden="true">▶</span><span data-i18n="watch">See it in action</span></a>
+      </div>
+      <p class="hero-note" data-i18n="requirements">Native SwiftUI · iOS 18+ · English & 简体中文</p>
+    </section>
+
+    <section class="demo-section wrap" id="demo" aria-label="Smail demonstration">
+      <div class="demo-frame">
+        <video id="demo-video" muted loop playsinline controls preload="metadata" poster="assets/smail-demo.png" aria-describedby="demo-caption">
+          <source src="assets/smail-demo.mp4" type="video/mp4">
+          <a href="assets/smail-demo.mp4" data-i18n="downloadVideo">Download the demo video</a>
+        </video>
+      </div>
+      <div class="demo-caption" id="demo-caption"><span data-i18n="demoCaption">The real app. Synthetic emails. Nothing staged in your inbox.</span><a href="assets/smail-demo.mp4" data-i18n="fullVideo">Watch video ↗</a></div>
+    </section>
+
+    <section class="features wrap" aria-labelledby="features-title">
+      <div class="section-heading"><p class="eyebrow" data-i18n="smallByDesign">SMALL BY DESIGN</p><h2 id="features-title" data-i18n="featureTitle">A calmer way through your mail.</h2></div>
+      <div class="feature-grid">
+        <article class="feature"><div class="feature-symbol" aria-hidden="true">↔</div><h3 data-i18n="swipeTitle">One swipe. One decision.</h3><p data-i18n="swipeBody">Right for useful, left for not useful. Your choices sync to Gmail labels. Changed your mind? Undo.</p><div class="swipe-labels" aria-hidden="true"><span data-i18n="leftLabel">← Not useful</span><span data-i18n="rightLabel">Useful →</span></div></article>
+        <article class="feature"><div class="feature-symbol number" aria-hidden="true">10</div><h3 data-i18n="batchTitle">A little at a time.</h3><p data-i18n="batchBody">Start with your ten newest unclassified Inbox messages, read or unread. Finish a batch. Take a breath. Keep going only if you want.</p></article>
+        <article class="feature"><div class="feature-symbol" aria-hidden="true">≡</div><h3 data-i18n="readTitle">Read before you decide.</h3><p data-i18n="readBody">Tap a card to open the full email, with HTML formatting and optional images. Then return to your stack.</p></article>
+      </div>
+    </section>
+
+    <section class="privacy wrap" aria-labelledby="privacy-title">
+      <div class="privacy-card">
+        <div><p class="eyebrow" data-i18n="yourMail">YOUR MAIL, YOUR CONTROL</p><h2 id="privacy-title"><span data-i18n="privacyTitle1">Labels change.</span><br><em data-i18n="privacyTitle2">Your mail doesn’t.</em></h2></div>
+        <div class="privacy-copy"><p data-i18n="privacyBody">Smail connects directly to Google. No Smail server. No AI processing. No deleting, archiving, or changing read status.</p><p class="privacy-detail" data-i18n="privacyDetail">Google’s gmail.modify permission is broader than these actions; Smail enforces its two-label limit in code. Remote images stay blocked until you choose to load them.</p><a href="https://github.com/siminyou-agent/smail/blob/main/docs/DEVELOPMENT.md#gmail-permissions-and-local-data" data-i18n="privacyLink">Read how it works ↗</a></div>
+      </div>
+    </section>
+
+    <section class="get-started wrap" aria-labelledby="start-title">
+      <div><p class="eyebrow" data-i18n="makeItYours">OPEN SOURCE. MAKE IT YOURS.</p><h2 id="start-title" data-i18n="startTitle">Give your inbox a minute.</h2><p data-i18n="startBody">Clone the repo, open it in Xcode, and try ten demo emails. No Google account needed for the demo.</p><p class="setup-note" data-i18n="setupNote">Requires macOS, Xcode, and XcodeGen. Connecting real Gmail needs your own Google OAuth setup.</p><a class="text-link" href="https://github.com/siminyou-agent/smail/blob/main/docs/DEVELOPMENT.md" data-i18n="setupLink">Setup & development guide ↗</a></div>
+      <div class="terminal"><div class="terminal-heading"><span class="terminal-dots" aria-hidden="true">● ● ●</span><span data-i18n="inRepo">From the cloned repository</span></div><pre><code><span class="prompt">$</span> xcodegen generate
+<span class="prompt">$</span> open Smail.xcodeproj</code></pre><div class="terminal-footer"><span class="status-dot"></span><span data-i18n="demoNote">Run in a simulator. Tap “Try ten demo emails”.</span></div></div>
+    </section>
+  </main>
+
+  <footer class="footer wrap"><span>© 2026 Simin · <a href="https://github.com/siminyou-agent/smail/blob/main/LICENSE">MIT License</a></span><span class="footer-links"><a href="https://github.com/siminyou-agent/smail/blob/main/docs/THIRD_PARTY_NOTICES.md" data-i18n="licenses">Third-party notices</a><a href="https://github.com/siminyou-agent/smail/issues" data-i18n="feedback">Ideas & feedback ↗</a></span></footer>
+</body>
+</html>

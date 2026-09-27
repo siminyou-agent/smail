@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B90313A59966843755F69B3 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = AC998B0D822A461F6679F45F /* GoogleSignIn */; };
+		38F7B3238224401B48A427A2 /* BatchStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4556163299C006957FC2FC93 /* BatchStore.swift */; };
+		44574F7BED2CB7496D5D00AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0DCEB8D1BE2B02986777DED /* Assets.xcassets */; };
+		542BCBE375ED847A25F38184 /* GmailClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269DF077313F71B1840ED88 /* GmailClient.swift */; };
+		563885076ED357A51D5A27FA /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3507004D6618D1BDCBB124E3 /* PrivacyInfo.xcprivacy */; };
+		64FCAD51339D8D1E82D14259 /* GoogleAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E92F21140C0E4B191F8FB9 /* GoogleAuth.swift */; };
+		73C3DC4F4CA3B153D80C4BB1 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = DF0EA5E9A4383D4FA659B890 /* SwiftSoup */; };
+		99343AE5AA2843C07174598A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE801BE14BCA38D6087DD5A /* Persistence.swift */; };
+		9C50CF4177B28C63F4B344A3 /* MailReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248FCC16FD30656C9B70FEF9 /* MailReader.swift */; };
+		A0B8C9052D01451B4CDAE947 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599E518C9C0AD68393E5FF78 /* Models.swift */; };
+		AEECCC12239A8A648E3F4912 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 02F9DBDA3A43FCE8F59C4B2D /* GoogleSignInSwift */; };
+		B2DD3AEB83CAFEC6CA6E0753 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 906E5659C22ADDB8D04FA387 /* Localizable.strings */; };
+		BBAC86ABD31739A587D3F2F6 /* SmailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771606BBDFC8BF1A5CFEB3A5 /* SmailTests.swift */; };
+		C07CC7706033F5C13F72957A /* SmailApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5A8A144E95C2794CC03D61 /* SmailApp.swift */; };
+		CB63674ACFF9116D3BCB45D4 /* LocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90777FC734D01CB63B1488A /* LocalizationTests.swift */; };
+		CF25245F2BB9E44D36BA4EFB /* HTMLReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D598926294CD9BAF9911D76 /* HTMLReaderTests.swift */; };
+		D631F9C85F773B7EFCDB6236 /* SmailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB44D191221403C4A56874AF /* SmailUITests.swift */; };
+		EDAC63259259AB0387B7B931 /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5AEA2B77E81744B6E3440F /* AppLanguage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2659CD94E0BD9ECBF3827DEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE088FD7477511CB999434B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBE5A8082B1CF013A64388B6;
+			remoteInfo = Smail;
+		};
+		F67F85995E7EEE51EBC4E472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE088FD7477511CB999434B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBE5A8082B1CF013A64388B6;
+			remoteInfo = Smail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C579AFAB3AC6530BF125086 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		1A5A8A144E95C2794CC03D61 /* SmailApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmailApp.swift; sourceTree = "<group>"; };
+		2269DF077313F71B1840ED88 /* GmailClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmailClient.swift; sourceTree = "<group>"; };
+		248FCC16FD30656C9B70FEF9 /* MailReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailReader.swift; sourceTree = "<group>"; };
+		2D598926294CD9BAF9911D76 /* HTMLReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLReaderTests.swift; sourceTree = "<group>"; };
+		3507004D6618D1BDCBB124E3 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		380D2134386884FCCF07B5FB /* SmailUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SmailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4166E7E833FFD42262DA291C /* SmailTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SmailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4556163299C006957FC2FC93 /* BatchStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchStore.swift; sourceTree = "<group>"; };
+		599E518C9C0AD68393E5FF78 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		771606BBDFC8BF1A5CFEB3A5 /* SmailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmailTests.swift; sourceTree = "<group>"; };
+		7AE801BE14BCA38D6087DD5A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		802A0B2B218402A904FC274D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A9E92F21140C0E4B191F8FB9 /* GoogleAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuth.swift; sourceTree = "<group>"; };
+		AEC6CD3A850664E8259645F9 /* Smail.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Smail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA98C6A5A05B0B985442427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BE5AEA2B77E81744B6E3440F /* AppLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLanguage.swift; sourceTree = "<group>"; };
+		C0DCEB8D1BE2B02986777DED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C147AA3A837666D2F8D6AE7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C26F587CD3F9F8F49AAC03C5 /* App.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = App.xcconfig; sourceTree = "<group>"; };
+		D90777FC734D01CB63B1488A /* LocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationTests.swift; sourceTree = "<group>"; };
+		EB44D191221403C4A56874AF /* SmailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmailUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93E3FC6F5F4B0CBD820D3AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73C3DC4F4CA3B153D80C4BB1 /* SwiftSoup in Frameworks */,
+				1B90313A59966843755F69B3 /* GoogleSignIn in Frameworks */,
+				AEECCC12239A8A648E3F4912 /* GoogleSignInSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0801F0DA1465B7D0EE394374 = {
+			isa = PBXGroup;
+			children = (
+				6AFC8855E42D8B28B3230166 /* Config */,
+				605363F936003ABF558EDC34 /* Smail */,
+				17C0625D7AC648E3CE692416 /* Tests */,
+				9F0A9A5024F7B9088CCF12F2 /* UITests */,
+				8118D5301342EFD15F1E019D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17C0625D7AC648E3CE692416 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2D598926294CD9BAF9911D76 /* HTMLReaderTests.swift */,
+				D90777FC734D01CB63B1488A /* LocalizationTests.swift */,
+				771606BBDFC8BF1A5CFEB3A5 /* SmailTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		605363F936003ABF558EDC34 /* Smail */ = {
+			isa = PBXGroup;
+			children = (
+				BE5AEA2B77E81744B6E3440F /* AppLanguage.swift */,
+				C0DCEB8D1BE2B02986777DED /* Assets.xcassets */,
+				4556163299C006957FC2FC93 /* BatchStore.swift */,
+				2269DF077313F71B1840ED88 /* GmailClient.swift */,
+				A9E92F21140C0E4B191F8FB9 /* GoogleAuth.swift */,
+				BCA98C6A5A05B0B985442427 /* Info.plist */,
+				248FCC16FD30656C9B70FEF9 /* MailReader.swift */,
+				599E518C9C0AD68393E5FF78 /* Models.swift */,
+				7AE801BE14BCA38D6087DD5A /* Persistence.swift */,
+				3507004D6618D1BDCBB124E3 /* PrivacyInfo.xcprivacy */,
+				1A5A8A144E95C2794CC03D61 /* SmailApp.swift */,
+				906E5659C22ADDB8D04FA387 /* Localizable.strings */,
+			);
+			path = Smail;
+			sourceTree = "<group>";
+		};
+		6AFC8855E42D8B28B3230166 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				C26F587CD3F9F8F49AAC03C5 /* App.xcconfig */,
+				0C579AFAB3AC6530BF125086 /* Release.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		8118D5301342EFD15F1E019D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEC6CD3A850664E8259645F9 /* Smail.app */,
+				4166E7E833FFD42262DA291C /* SmailTests.xctest */,
+				380D2134386884FCCF07B5FB /* SmailUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F0A9A5024F7B9088CCF12F2 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB44D191221403C4A56874AF /* SmailUITests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F8F8B7C8A23EA2C77CA6AEF /* SmailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B738F53F2F26CD6084F9475B /* Build configuration list for PBXNativeTarget "SmailUITests" */;
+			buildPhases = (
+				4AC4D303914DD4B26BDF89A4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5659465938F148199D1B2CA0 /* PBXTargetDependency */,
+			);
+			name = SmailUITests;
+			packageProductDependencies = (
+			);
+			productName = SmailUITests;
+			productReference = 380D2134386884FCCF07B5FB /* SmailUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5A5AB2E78DECE45522180FD2 /* SmailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF22CF8775162DCB8D8D265 /* Build configuration list for PBXNativeTarget "SmailTests" */;
+			buildPhases = (
+				9C416FBB8F0B211A1D223F0D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				435E148FC9556582DF30E0CA /* PBXTargetDependency */,
+			);
+			name = SmailTests;
+			packageProductDependencies = (
+			);
+			productName = SmailTests;
+			productReference = 4166E7E833FFD42262DA291C /* SmailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBE5A8082B1CF013A64388B6 /* Smail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E9DED89A08CA293BDB10326 /* Build configuration list for PBXNativeTarget "Smail" */;
+			buildPhases = (
+				08F9603132C6DF813E71256A /* Sources */,
+				81576FC857BF77D996F4B6AB /* Resources */,
+				93E3FC6F5F4B0CBD820D3AFF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smail;
+			packageProductDependencies = (
+				DF0EA5E9A4383D4FA659B890 /* SwiftSoup */,
+				AC998B0D822A461F6679F45F /* GoogleSignIn */,
+				02F9DBDA3A43FCE8F59C4B2D /* GoogleSignInSwift */,
+			);
+			productName = Smail;
+			productReference = AEC6CD3A850664E8259645F9 /* Smail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE088FD7477511CB999434B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4F8F8B7C8A23EA2C77CA6AEF = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+						TestTargetID = BBE5A8082B1CF013A64388B6;
+					};
+					5A5AB2E78DECE45522180FD2 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					BBE5A8082B1CF013A64388B6 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = A541EA9D30997B990EAB6E7C /* Build configuration list for PBXProject "Smail" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				"zh-Hans",
+			);
+			mainGroup = 0801F0DA1465B7D0EE394374;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5E019A763748B2BEB6DF27D7 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				D4C34AB1880179F1FD5DC7BE /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8118D5301342EFD15F1E019D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBE5A8082B1CF013A64388B6 /* Smail */,
+				5A5AB2E78DECE45522180FD2 /* SmailTests */,
+				4F8F8B7C8A23EA2C77CA6AEF /* SmailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81576FC857BF77D996F4B6AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44574F7BED2CB7496D5D00AF /* Assets.xcassets in Resources */,
+				B2DD3AEB83CAFEC6CA6E0753 /* Localizable.strings in Resources */,
+				563885076ED357A51D5A27FA /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08F9603132C6DF813E71256A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAC63259259AB0387B7B931 /* AppLanguage.swift in Sources */,
+				38F7B3238224401B48A427A2 /* BatchStore.swift in Sources */,
+				542BCBE375ED847A25F38184 /* GmailClient.swift in Sources */,
+				64FCAD51339D8D1E82D14259 /* GoogleAuth.swift in Sources */,
+				9C50CF4177B28C63F4B344A3 /* MailReader.swift in Sources */,
+				A0B8C9052D01451B4CDAE947 /* Models.swift in Sources */,
+				99343AE5AA2843C07174598A /* Persistence.swift in Sources */,
+				C07CC7706033F5C13F72957A /* SmailApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC4D303914DD4B26BDF89A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D631F9C85F773B7EFCDB6236 /* SmailUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C416FBB8F0B211A1D223F0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF25245F2BB9E44D36BA4EFB /* HTMLReaderTests.swift in Sources */,
+				CB63674ACFF9116D3BCB45D4 /* LocalizationTests.swift in Sources */,
+				BBAC86ABD31739A587D3F2F6 /* SmailTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		435E148FC9556582DF30E0CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBE5A8082B1CF013A64388B6 /* Smail */;
+			targetProxy = F67F85995E7EEE51EBC4E472 /* PBXContainerItemProxy */;
+		};
+		5659465938F148199D1B2CA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBE5A8082B1CF013A64388B6 /* Smail */;
+			targetProxy = 2659CD94E0BD9ECBF3827DEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		906E5659C22ADDB8D04FA387 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C147AA3A837666D2F8D6AE7F /* en */,
+				802A0B2B218402A904FC274D /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17FF03D9FBAA52827E4C57AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = you.simin.SmailUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Smail;
+			};
+			name = Debug;
+		};
+		30F02B6CAC2ED2F7760A0D76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = you.simin.SmailUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Smail;
+			};
+			name = Release;
+		};
+		70ACC0311DDE41BB5BC4768A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = you.simin.SmailTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smail.app/Smail";
+			};
+			name = Debug;
+		};
+		7946AB05E9B4FA1AF1A8438E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 6;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GOOGLE_CLIENT_ID = unconfigured.apps.googleusercontent.com;
+				GOOGLE_REVERSED_CLIENT_ID = com.googleusercontent.apps.unconfigured;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9694482D9388667BDD1052D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C579AFAB3AC6530BF125086 /* Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Smail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = you.simin.Smail;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D27DE4B0AA199A619DC7B247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 6;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GOOGLE_CLIENT_ID = unconfigured.apps.googleusercontent.com;
+				GOOGLE_REVERSED_CLIENT_ID = com.googleusercontent.apps.unconfigured;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F0B7A4F253ED32F6093B7E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = you.simin.SmailTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smail.app/Smail";
+			};
+			name = Release;
+		};
+		F9E6890B06C2C857593E730C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C26F587CD3F9F8F49AAC03C5 /* App.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Smail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = you.simin.Smail;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E9DED89A08CA293BDB10326 /* Build configuration list for PBXNativeTarget "Smail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E6890B06C2C857593E730C /* Debug */,
+				9694482D9388667BDD1052D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A541EA9D30997B990EAB6E7C /* Build configuration list for PBXProject "Smail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27DE4B0AA199A619DC7B247 /* Debug */,
+				7946AB05E9B4FA1AF1A8438E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B738F53F2F26CD6084F9475B /* Build configuration list for PBXNativeTarget "SmailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17FF03D9FBAA52827E4C57AD /* Debug */,
+				30F02B6CAC2ED2F7760A0D76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BEF22CF8775162DCB8D8D265 /* Build configuration list for PBXNativeTarget "SmailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70ACC0311DDE41BB5BC4768A /* Debug */,
+				F0B7A4F253ED32F6093B7E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5E019A763748B2BEB6DF27D7 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = exactVersion;
+				version = 9.0.0;
+			};
+		};
+		D4C34AB1880179F1FD5DC7BE /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = exactVersion;
+				version = 2.13.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		02F9DBDA3A43FCE8F59C4B2D /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5E019A763748B2BEB6DF27D7 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		AC998B0D822A461F6679F45F /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5E019A763748B2BEB6DF27D7 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		DF0EA5E9A4383D4FA659B890 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4C34AB1880179F1FD5DC7BE /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BE088FD7477511CB999434B6 /* Project object */;
+}
