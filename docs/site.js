@@ -15,7 +15,7 @@ const translations = {
   startBody: "克隆仓库，用 Xcode 打开，先体验十封演示邮件。演示模式不需要 Google 账号。",
   setupNote: "需要 macOS、Xcode 和 XcodeGen。连接真实 Gmail 需配置你自己的 Google OAuth。",
   setupLink: "配置与开发指南 ↗", inRepo: "在克隆的仓库目录中运行", demoNote: "在模拟器运行，点击「先体验十封演示邮件」。",
-  licenses: "第三方许可声明", feedback: "建议与反馈 ↗"
+  privacyPolicy: "隐私政策", contact: "联系支持", licenses: "第三方许可声明", feedback: "建议与反馈 ↗"
 };
 const nodes = [...document.querySelectorAll("[data-i18n]")];
 const english = new Map(nodes.map(node => [node, node.textContent]));
