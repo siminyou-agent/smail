@@ -2,7 +2,7 @@
 
 **Less inbox. More headspace.**
 
-[Website & demo](https://siminyou-agent.github.io/smail/) · [开发指南 / Development](docs/DEVELOPMENT.md)
+[Website & demo](https://smail.simin.you/) · [开发指南 / Development](docs/DEVELOPMENT.md)
 
 A small, native iOS app for sorting Gmail, ten emails at a time. Swipe right for useful, left for not useful. Your choices sync to Gmail labels—your messages stay right where they are.
 
